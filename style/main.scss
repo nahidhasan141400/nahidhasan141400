@@ -16,7 +16,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 2px;
 }
 ::-webkit-scrollbar-thumb {
   background: $cg;
@@ -160,6 +160,15 @@ header {
         }
       }
     }
+  }
+}
+// projects paje header
+#projet {
+  height: auto;
+  background: $dark;
+  min-height: auto;
+  @media (max-width: 650px) {
+    min-height: auto;
   }
 }
 
@@ -536,5 +545,106 @@ footer {
     text-align: center;
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+// project page start
+// top text
+.text-pro {
+  width: 100%;
+  text-align: center;
+  .titel {
+    margin: 13rem 0px;
+    h1 {
+      font-size: 5rem;
+      font-family: "Syncopate", sans-serif;
+      color: #fff;
+      letter-spacing: 0.3rem;
+    }
+    p {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      color: rgba(255, 255, 255, 0.613);
+    }
+  }
+}
+.future {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem;
+  margin: auto;
+  .head {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+  }
+  .list {
+    width: 100%;
+    @include center(row);
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 2rem;
+    @media (max-width: 900px) {
+      @include center(colunm);
+    }
+    .pro {
+      position: relative;
+      width: 30rem;
+      height: 28rem;
+      background: #242d44;
+      padding: 1.7rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1rem;
+      margin: 1rem;
+      @media (max-width: 900px) {
+        width: 35rem;
+      }
+      .h {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        .name {
+          font-size: 2.2rem;
+        }
+        .link {
+          font-size: 2rem;
+          a {
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.2s linear;
+            &:hover {
+              @include hi;
+            }
+          }
+        }
+      }
+      .des {
+        width: 100%;
+
+        p {
+          font-size: 1.4rem;
+        }
+      }
+      .f {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        span {
+          font-size: 1.4rem;
+          padding: 0.6rem 1.4rem;
+          margin: 5px;
+          background: $blue;
+          border-radius: 5px;
+          &:hover {
+            background: $purple;
+          }
+        }
+      }
+    }
   }
 }
