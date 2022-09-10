@@ -620,4 +620,10 @@ footer .info .copy {
 }
 .contact .links .instagram {
   background: radial-gradient(circle farthest-corner at 28% 100%, #fcdf8f 0%, #fbd377 10%, #fa8e37 22%, #f73344 35%, transparent 65%), linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
+}
+.contact .mail {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=main.css.map */
