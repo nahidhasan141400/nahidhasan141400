@@ -5,18 +5,20 @@
   flex-direction: $pos;
 }
 @mixin hi {
-  background: $cg;
+  background: $acg;
   background-position: center;
-  background-size: cover;
+  background-size: 500px;
   background-clip: text;
   color: transparent;
+  animation: wave1 20s linear infinite;
 }
 
 .hi {
-  background: $cg;
+  background: $acg;
   background-position: center;
-  background-size: contain;
+  background-size: 400px;
   background-clip: text;
   color: transparent;
   padding: 0 3px;
+  animation: wave1 20s linear infinite;
 }
