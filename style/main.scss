@@ -423,3 +423,41 @@ header {
     }
   }
 }
+footer {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  margin-top: 5rem;
+  overflow: hidden;
+  .br {
+    width: 100%;
+    height: 0.5rem;
+    background: $acg;
+    background-size: 1000px;
+    position: absolute;
+    top: 0px;
+    animation: wave1 3s linear infinite;
+  }
+  .sh {
+    filter: blur(10px);
+    top: 95%;
+    width: 110%;
+  }
+  .info {
+    width: 100%;
+    height: 100%;
+    @include center(row);
+    justify-content: space-around;
+    color: #646f8c;
+    @media (max-width: 900px) {
+      @include center(column);
+    }
+    .wish {
+      font-size: 1.5rem;
+    }
+    .copy {
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+  }
+}
