@@ -20,6 +20,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 @media (max-width: 650px) {
@@ -242,6 +243,10 @@ header .hero .btn-g .br:hover {
   width: 30rem;
   box-shadow: 1px 1px 10px rgba(0, 255, 255, 0.32);
   border-radius: 5px;
+  transition: all 2s ease-out;
+}
+.about .conteiner .image img:hover {
+  box-shadow: -7px -8px 55px rgba(255, 54, 141, 0.3), -2px -2px 20px rgba(255, 54, 141, 0.5), -4px -4px 10px rgba(255, 54, 141, 0.6), 8px 8px 55px rgba(72, 124, 255, 0.3), 2px 2px 20px rgba(72, 124, 255, 0.5), 4px 4px 10px rgba(72, 124, 255, 0.6);
 }
 .about .conteiner .text {
   width: 100%;
@@ -492,6 +497,9 @@ header .hero .btn-g .br:hover {
 
 .all {
   position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 .all a {
   text-decoration: none;
@@ -563,4 +571,53 @@ footer .info .wish {
 footer .info .copy {
   font-size: 1.5rem;
   padding-top: 10px;
+}
+
+.contact {
+  width: 100%;
+  position: relative;
+  padding: 10rem 0;
+}
+.contact .titel {
+  width: 100%;
+  max-width: 1000px;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: auto;
+  text-align: center;
+}
+.contact .links {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.contact .links a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin: 1rem;
+  transition: all 0.2s ease-out;
+}
+.contact .links a span {
+  position: relative;
+  font-size: 2.5rem;
+  top: 0.2rem;
+}
+.contact .links a:hover {
+  transform: translateY(-10px);
+}
+.contact .links .linkedin {
+  background: #0072b1;
+}
+.contact .links .github {
+  background: #171515;
+}
+.contact .links .insta {
+  background: radial-gradient(circle farthest-corner at 28% 100%, #fcdf8f 0%, #fbd377 10%, #fa8e37 22%, #f73344 35%, transparent 65%), linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
 }/*# sourceMappingURL=main.css.map */
