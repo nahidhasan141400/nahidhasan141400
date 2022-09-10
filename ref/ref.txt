@@ -1,0 +1,46 @@
+*--------[ color plate ]--------*
+
+---| main |---
+
+dark: #16213E 
+blue: #0F3460
+purple: #533483
+pink: #E94560
+
+
+*--------[ gradient plate ]--------*
+
+pink -> blue : linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+
+
+dark : linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+
+
+*--------[ fonts ]--------*
+
+---| heading |---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+</style>
+
+font-family: 'Syncopate', sans-serif;
+
+
+
+---| body |---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+</style>
+
+font-family: 'Comfortaa', cursive;
+
+===| signature |===
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+</style>
+
+font-family: 'Sacramento', cursive;

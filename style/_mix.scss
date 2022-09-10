@@ -1,0 +1,22 @@
+@mixin center($pos) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $pos;
+}
+@mixin hi {
+  background: $cg;
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+.hi {
+  background: $cg;
+  background-position: center;
+  background-size: contain;
+  background-clip: text;
+  color: transparent;
+  padding: 0 3px;
+}
