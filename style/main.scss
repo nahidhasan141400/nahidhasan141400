@@ -486,6 +486,7 @@ footer {
     text-transform: capitalize;
     margin: auto;
     text-align: center;
+    // box-shadow: 4px 4px 4px rgb(255, 54, 141);
   }
   .links {
     width: 100%;
@@ -518,7 +519,7 @@ footer {
     .github {
       background: #171515;
     }
-    .insta {
+    .instagram {
       background: radial-gradient(
           circle farthest-corner at 28% 100%,
           #fcdf8f 0%,
