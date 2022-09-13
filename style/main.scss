@@ -597,36 +597,41 @@ footer {
       padding: 1.7rem 1.5rem;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       border-radius: 1rem;
       margin: 1rem;
       @media (max-width: 900px) {
         width: 35rem;
       }
-      .h {
+      .t {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1rem;
-        .name {
-          font-size: 2.2rem;
-        }
-        .link {
-          font-size: 2rem;
-          a {
-            text-decoration: none;
-            color: #fff;
-            transition: all 0.2s linear;
-            &:hover {
-              @include hi;
+        position: relative;
+        .h {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1rem;
+          .name {
+            font-size: 2.2rem;
+          }
+          .link {
+            font-size: 2rem;
+            a {
+              text-decoration: none;
+              color: #fff;
+              transition: all 0.2s linear;
+              &:hover {
+                @include hi;
+              }
             }
           }
         }
-      }
-      .des {
-        width: 100%;
+        .des {
+          width: 100%;
 
-        p {
-          font-size: 1.4rem;
+          p {
+            font-size: 1.4rem;
+          }
         }
       }
       .f {
@@ -644,6 +649,91 @@ footer {
             background: $purple;
           }
         }
+      }
+    }
+  }
+}
+
+.table {
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+  .titel {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .con {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 1rem 5rem 5rem 5rem;
+
+    table {
+      width: 100%;
+      position: relative;
+      thead {
+        width: 100%;
+        position: relative;
+
+        tr {
+          font-size: 2rem;
+          text-transform: capitalize;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.572);
+          th {
+            padding: 1.3rem 0;
+          }
+        }
+      }
+      tbody {
+        width: 100%;
+        position: relative;
+        tr {
+          transition: all 0.5s;
+          &:hover {
+            background: rgba(255, 255, 255, 0.01);
+          }
+          td {
+            font-size: 1.5rem;
+            padding: 1rem 0px;
+            margin: 0px;
+            a {
+              text-decoration: none;
+              color: #fff;
+              font-size: 1.7rem;
+              padding: 0 0 0 0.5rem;
+              &:hover {
+                color: $pink;
+              }
+            }
+          }
+        }
+      }
+      th.year,
+      td.year {
+        width: 10%;
+        text-align: center;
+      }
+      td.year {
+        color: $pink;
+      }
+      th.name,
+      td.name {
+        width: 20%;
+        text-align: left;
+      }
+      th.build,
+      td.build {
+        width: 50%;
+        text-align: left;
+      }
+      th.links,
+      td.links {
+        width: 20%;
+        text-align: right;
       }
     }
   }
