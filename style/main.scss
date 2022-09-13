@@ -601,7 +601,8 @@ footer {
       border-radius: 1rem;
       margin: 1rem;
       @media (max-width: 900px) {
-        width: 35rem;
+        width: 100%;
+        height: 20rem;
       }
       .t {
         width: 100%;
@@ -694,7 +695,7 @@ footer {
         tr {
           transition: all 0.5s;
           &:hover {
-            background: rgba(255, 255, 255, 0.01);
+            background: rgba(255, 255, 255, 0.007);
           }
           td {
             font-size: 1.5rem;
@@ -729,6 +730,10 @@ footer {
       td.build {
         width: 50%;
         text-align: left;
+        word-spacing: 5px;
+        @media (max-width: 600px) {
+          display: none;
+        }
       }
       th.links,
       td.links {

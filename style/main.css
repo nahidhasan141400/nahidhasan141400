@@ -703,7 +703,8 @@ footer .info .copy {
 }
 @media (max-width: 900px) {
   .future .list .pro {
-    width: 35rem;
+    width: 100%;
+    height: 20rem;
   }
 }
 .future .list .pro .t {
@@ -803,7 +804,7 @@ footer .info .copy {
   transition: all 0.5s;
 }
 .table .con table tbody tr:hover {
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.007);
 }
 .table .con table tbody tr td {
   font-size: 1.5rem;
@@ -836,6 +837,13 @@ footer .info .copy {
 .table .con table td.build {
   width: 50%;
   text-align: left;
+  word-spacing: 5px;
+}
+@media (max-width: 600px) {
+  .table .con table th.build,
+.table .con table td.build {
+    display: none;
+  }
 }
 .table .con table th.links,
 .table .con table td.links {
