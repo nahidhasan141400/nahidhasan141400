@@ -1,1 +1,4 @@
 ( 12-12-2022 ) frist sellery in life ammount is = 6185 BDT; As softower eng. on dewan ict [mirpur-1,dhaka,bangkadesh]
+
+( 18-12-2022 ) link for open port in cent OS =7
+[----  https://www.thegeekdiary.com/how-to-open-a-ports-in-centos-rhel-7/ ----]
