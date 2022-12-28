@@ -25,6 +25,8 @@
     <td align>
       <img height="200em" src="https://github-readme-stats.vercel.app/api?username=nahidhasan141400&show_icons=true&hide_border=true&count_private=true" /> 
     </td>
+  </tr>
+  <tr>
     <td> 
       <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahidhasan141400&show_icons=true&hide_border=true&layout=compact&langs_count=10"/> 
     </td>
