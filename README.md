@@ -11,16 +11,13 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="mongodb" width="40" height="40"/> </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="mongodb" width="40" height="40"/> </a>
 
-<table width="100%">
+<table align="center" width="100%">
   <tr>
     <td align="center">
       <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=nahidhasan141400" alt="nahidhasan" />
     </td>
    
   </tr>
-<table>
-
-<table align="center" width="100%">
   <tr>
     <td >
       <img height="200em" src="https://github-readme-stats.vercel.app/api?username=nahidhasan141400&show_icons=true&hide_border=true&count_private=true" /> 
