@@ -45,8 +45,7 @@
   <div style="width: 50%;" align="center" >
     
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/nahidhasan141400/)
-&nbsp; [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/tanvirstreame) 
-
+    
    <div >
   <div style="width: 50%;" align="center" >
    <a href="https://github.com/antonkomarev/github-profile-views-counter">
