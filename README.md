@@ -20,9 +20,9 @@
   </tr>
 <table>
 
-<table width="100%">
+<table align="center" width="100%">
   <tr>
-    <td align>
+    <td >
       <img height="200em" src="https://github-readme-stats.vercel.app/api?username=nahidhasan141400&show_icons=true&hide_border=true&count_private=true" /> 
     </td>
   </tr>
