@@ -13,7 +13,7 @@
 
 <table width="100%">
   <tr>
-    <td>
+    <td align="center">
       <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=nahidhasan141400" alt="nahidhasan" />
     </td>
    
@@ -22,7 +22,7 @@
 
 <table width="100%">
   <tr>
-    <td>
+    <td align>
       <img height="200em" src="https://github-readme-stats.vercel.app/api?username=nahidhasan141400&show_icons=true&hide_border=true&count_private=true" /> 
     </td>
     <td> 
