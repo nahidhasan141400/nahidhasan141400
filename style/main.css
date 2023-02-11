@@ -9,8 +9,7 @@
           background-clip: text;
   color: transparent;
   padding: 0 3px;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
 }
 
 * {
@@ -101,8 +100,7 @@ header nav .nav ol li a:hover {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
 }
 header nav .nav ol li a:active {
   transform: scale(95%);
@@ -301,8 +299,7 @@ header .hero .btn-g .br:hover {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
 }
 
 .wave {
@@ -319,33 +316,20 @@ header .hero .btn-g .br:hover {
   top: 0px;
 }
 .wave .w-1 {
-  -webkit-animation: wave1 4s linear infinite;
-          animation: wave1 4s linear infinite;
+  animation: wave1 4s linear infinite;
   opacity: 0.6;
 }
 .wave .w-2 {
-  -webkit-animation: wave1 3s linear infinite;
-          animation: wave1 3s linear infinite;
+  animation: wave1 3s linear infinite;
   opacity: 1;
 }
 .wave .w-3 {
-  -webkit-animation: wave2 5s linear infinite;
-          animation: wave2 5s linear infinite;
+  animation: wave2 5s linear infinite;
   opacity: 0.4;
 }
 .wave .w-4 {
-  -webkit-animation: wave2 2s linear infinite;
-          animation: wave2 2s linear infinite;
+  animation: wave2 2s linear infinite;
   opacity: 0.3;
-}
-
-@-webkit-keyframes wave1 {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-position-x: 0px;
-  }
 }
 
 @keyframes wave1 {
@@ -354,14 +338,6 @@ header .hero .btn-g .br:hover {
   }
   100% {
     background-position-x: 0px;
-  }
-}
-@-webkit-keyframes wave2 {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: 1000px;
   }
 }
 @keyframes wave2 {
@@ -410,10 +386,9 @@ header .hero .btn-g .br:hover {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
   padding: 0;
-  font-size: 2.6rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 @media (max-width: 900px) {
@@ -526,8 +501,7 @@ header .hero .btn-g .br:hover {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
   font-size: 2.4rem;
   padding-left: 5px;
   transition: all 0.4s;
@@ -550,8 +524,7 @@ footer .br {
   background-size: 1000px;
   position: absolute;
   top: 0px;
-  -webkit-animation: wave1 3s linear infinite;
-          animation: wave1 3s linear infinite;
+  animation: wave1 3s linear infinite;
 }
 footer .sh {
   filter: blur(10px);
@@ -735,8 +708,7 @@ footer .info .copy {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  -webkit-animation: wave1 20s linear infinite;
-          animation: wave1 20s linear infinite;
+  animation: wave1 20s linear infinite;
 }
 .future .list .pro .t .des {
   width: 100%;
@@ -841,7 +813,7 @@ footer .info .copy {
 }
 @media (max-width: 600px) {
   .table .con table th.build,
-.table .con table td.build {
+  .table .con table td.build {
     display: none;
   }
 }
@@ -874,16 +846,6 @@ footer .info .copy {
 .lod .svg svg {
   width: 100%;
 }
-@-webkit-keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: 2405.5148925781px;
-    stroke-dasharray: 2405.5148925781px;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-dasharray: 2405.5148925781px;
-  }
-}
 @keyframes animate-svg-stroke-1 {
   0% {
     stroke-dashoffset: 2405.5148925781px;
@@ -895,7 +857,12 @@ footer .info .copy {
   }
 }
 .lod .svg .svg-elem-1 {
-  -webkit-animation: animate-svg-stroke-1 5s ease-in-out 0s both;
   animation: animate-svg-stroke-1 5s ease-in-out 0s both;
   width: 100%;
+}
+
+.ex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
