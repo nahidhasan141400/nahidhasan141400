@@ -789,3 +789,62 @@ footer {
   justify-content: space-between;
   height: auto;
 }
+
+.cursor{
+
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.2s;
+}
+.cursor-dot{
+
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+
+.canim{
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff3e;
+  border: 1px dashed #fff;
+  animation: rotet 5s linear infinite;
+  transform-origin: center;
+  backdrop-filter: contrast(50);
+}
+@keyframes rotet {
+  0%{
+    transform:  translate(-50%, -50%);
+  }
+  20%{
+    transform:  translate(-30%, -40%);
+    
+  }
+  40%{
+    transform:  translate(-40%, -60%);
+    
+  }
+  60%{
+    transform:  translate(-40%, -70%);
+    
+  }
+  100%{
+    transform:  translate(-50%, -50%);
+  }
+}
+
+body{
+  cursor: none;
+}
