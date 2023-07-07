@@ -27,6 +27,7 @@ body {
   position: relative;
   font-family: "Comfortaa", cursive;
   color: $light;
+  cursor: none;
 }
 header {
   width: 100%;
@@ -394,7 +395,7 @@ header {
                 margin: 7px 5px 0px 0px;
                 background: $blue;
                 border-radius: 5px;
-                cursor: pointer;
+                cursor: none;
                 transition: all 0.3s;
                 &:hover {
                   background-color: $purple;
@@ -818,11 +819,12 @@ footer {
 .canim{
   height: 60px;
   width: 60px;
-  background-color: #ffffff3e;
+  background-color: #ffffff2e;
   border: 1px dashed #fff;
   animation: rotet 5s linear infinite;
   transform-origin: center;
-  backdrop-filter: contrast(50);
+  backdrop-filter:  saturate(150%);
+  cursor: none;
 }
 @keyframes rotet {
   0%{

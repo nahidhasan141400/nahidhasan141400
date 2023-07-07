@@ -41,6 +41,7 @@ body {
   position: relative;
   font-family: "Comfortaa", cursive;
   color: #ecf0f4;
+  cursor: none;
 }
 
 header {
@@ -461,7 +462,7 @@ header .hero .btn-g .br:hover {
   margin: 7px 5px 0px 0px;
   background: #0a305f;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: none;
   transition: all 0.3s;
 }
 .container .tow .pr-row .pro .des .tech ol li:hover {
@@ -894,12 +895,13 @@ footer .info .copy {
 .canim {
   height: 60px;
   width: 60px;
-  background-color: rgba(255, 255, 255, 0.2431372549);
+  background-color: rgba(255, 255, 255, 0.1803921569);
   border: 1px dashed #fff;
   animation: rotet 5s linear infinite;
   transform-origin: center;
-  -webkit-backdrop-filter: contrast(50);
-          backdrop-filter: contrast(50);
+  -webkit-backdrop-filter: saturate(150%);
+          backdrop-filter: saturate(150%);
+  cursor: none;
 }
 
 @keyframes rotet {
