@@ -1,30 +1,24 @@
-<h1 align="center">Hi 👋, I'm Nahid Hasan</h1>
-
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> I'm Nahid Hasan</h1>
 <br>
-
-
-<P align="center">Programming is 90% thinking and 10% writing</p>
-
 <p align="center">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="node" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="mongodb" width="40" height="40"/> </a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=24&pause=3000&color=cdcdcd&center=true&vCenter=true&random=false&width=435&height=25&lines=Assalamu+O+Alaikum+Warahmatullah.;thanks+for+visiting+my+profile"></a>
+</p>
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center">
-      <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=nahidhasan141400" alt="nahidhasan" />
-    </td>
-   
-  </tr>
-  
-  <tr  align="center" width="100%">
-    <td> 
-      <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahidhasan141400&show_icons=true&hide_border=true&layout=compact&langs_count=10"/> 
-    </td>
-  </tr>
-<table>
+
+
+- 🌱 I’m currently learning **IOT**
+- 👯 I’m looking to collaborate on
+- 🤔 I’m looking for help with **learning GitHub Actions**
+- 💬 Ask me about **JavaScript and Web development**
+- 😄 Pronouns: **he**
+- ⚡ Fun fact: **I like solving puzzles**
+- 🤑 I think: Programming is **90%** thinking and **10%** writing.
+
+
+| <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=nahidhasan141400" alt="nahidhasan" />  | <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahidhasan141400&show_icons=true&hide_border=true&layout=compact&langs_count=10"/> |
+|---|---|
+
+
 
 
 
