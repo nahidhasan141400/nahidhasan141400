@@ -18,24 +18,24 @@
 | <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=nahidhasan141400" alt="nahidhasan" />  | <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahidhasan141400&show_icons=true&hide_border=true&layout=compact&langs_count=10"/> |
 |---|---|
 
+## My Skills
+
+#### Programming Languages:  
+[![My Skills](https://skillicons.dev/icons?i=js,c,cpp,py&perline=4)]()
+
+#### Library & Framework:  
+[![My Skills](https://skillicons.dev/icons?i=next,nodejs,express,tailwind&perline=4)]()
+
+#### Database & ORM:  
+[![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,&perline=4)]()
+
+#### Tools:  
+[![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,git,github,arduino,bash,ai,ps,figma,xd&perline=4)]()
 
 
 
 
-**Languages and Tools:**  
-
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
-
-<div style="display: flex;">
-  <div style="width: 50%;" align="center" >
-    
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/nahidhasan141400/)
-    
+   
    <div >
   <div style="width: 50%;" align="center" >
    <a href="https://github.com/antonkomarev/github-profile-views-counter">
