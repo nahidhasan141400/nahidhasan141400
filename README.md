@@ -24,7 +24,7 @@
 [![My Skills](https://skillicons.dev/icons?i=js,c,cpp,py&perline=4)]()
 
 #### Library & Framework:  
-[![My Skills](https://skillicons.dev/icons?i=next,nodejs,express,tailwind&perline=4)]()
+[![My Skills](https://skillicons.dev/icons?i=react,next,nodejs,express,tailwind&perline=5)]()
 
 #### Database & ORM:  
 [![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,&perline=4)]()
