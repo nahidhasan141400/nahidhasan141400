@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **IOT**
 - 👯 I’m looking to collaborate on
-- 🤔 I’m looking for help with **learning GitHub Actions**
+- 🤔 I’m looking for help with **learning System Design**
 - 💬 Ask me about **JavaScript and Web development**
 - 😄 Pronouns: **he**
 - ⚡ Fun fact: **I like solving puzzles**
