@@ -30,7 +30,7 @@
 [![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,&perline=4)]()
 
 #### Tools:  
-[![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,git,github,arduino,bash,ai,ps,figma,xd&perline=4)]()
+[![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,git,github,arduino,bash,ai,ps,figma,xd&perline=5)]()
 
 
 
