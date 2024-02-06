@@ -21,13 +21,13 @@
 ## My Skills
 
 #### Programming Languages:  
-[![My Skills](https://skillicons.dev/icons?i=js,c,cpp,py&perline=4)]()
+[![My Skills](https://skillicons.dev/icons?i=js,ts,c,cpp,py&perline=5)]()
 
 #### Library & Framework:  
 [![My Skills](https://skillicons.dev/icons?i=react,next,nodejs,express,tailwind&perline=5)]()
 
 #### Database & ORM:  
-[![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,&perline=4)]()
+[![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize&perline=4)]()
 
 #### Tools:  
 [![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,git,github,arduino,bash,ai,ps,figma,xd&perline=5)]()
