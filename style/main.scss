@@ -29,6 +29,9 @@ body {
   color: $light;
   cursor: none;
 }
+.lazy-load-cover {
+  background: $cg;
+}
 header {
   width: 100%;
   min-height: 100vh;
@@ -791,8 +794,7 @@ footer {
   height: auto;
 }
 
-.cursor{
-
+.cursor {
   position: fixed;
   width: 40px;
   height: 40px;
@@ -803,8 +805,7 @@ footer {
   pointer-events: none;
   transition: all 0.2s;
 }
-.cursor-dot{
-
+.cursor-dot {
   position: fixed;
   width: 5px;
   height: 5px;
@@ -815,38 +816,34 @@ footer {
   pointer-events: none;
 }
 
-
-.canim{
+.canim {
   height: 60px;
   width: 60px;
   background-color: #ffffff2e;
   border: 1px dashed #fff;
   animation: rotet 5s linear infinite;
   transform-origin: center;
-  backdrop-filter:  saturate(150%);
+  backdrop-filter: saturate(150%);
   cursor: none;
 }
 @keyframes rotet {
-  0%{
-    transform:  translate(-50%, -50%);
+  0% {
+    transform: translate(-50%, -50%);
   }
-  20%{
-    transform:  translate(-30%, -40%);
-    
+  20% {
+    transform: translate(-30%, -40%);
   }
-  40%{
-    transform:  translate(-40%, -60%);
-    
+  40% {
+    transform: translate(-40%, -60%);
   }
-  60%{
-    transform:  translate(-40%, -70%);
-    
+  60% {
+    transform: translate(-40%, -70%);
   }
-  100%{
-    transform:  translate(-50%, -50%);
+  100% {
+    transform: translate(-50%, -50%);
   }
 }
 
-body{
+body {
   cursor: none;
 }
