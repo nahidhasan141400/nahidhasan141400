@@ -27,10 +27,10 @@
 [![My Skills](https://skillicons.dev/icons?i=react,next,nodejs,express,tailwind&perline=5)]()
 
 #### Database & ORM:  
-[![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,redis&perline=4)]()
+[![My Skills](https://skillicons.dev/icons?i=mongo,mysql,sequelize,redis,sqlite&perline=5)]()
 
 #### Tools:  
-[![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,kali,ubuntu,git,github,arduino,bash,ai,ps,figma,xd,&perline=5)]()
+[![My Skills](https://skillicons.dev/icons?i=vscode,vite,linux,kali,ubuntu,git,rabbitmq,kafka,elasticsearch,github,arduino,bash,ai,ps,figma,xd,&perline=5)]()
 
 
 
